@@ -75,6 +75,18 @@ img{
 	background: #0e83e7;
 	color: #fff;
 }
+.button02{
+	width: 120px;
+	height: 36px;
+	background: #e6e6e6;
+	color: #333;
+	border:1px solid #c9c9c9 !important;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.bule{
+	color: #1388e7;
+}
 /***************************************头部css***********************************************/
 header{
 	background-color:#0b85ef;
@@ -147,22 +159,22 @@ header .fr .user img{
 .contant{
 	overflow: hidden;
 }
-.contant .fl{
+.contant>.fl{
 	width: 180px;
 	background: #fff;
 	overflow: hidden;
 	min-height: 1000px;
 }
-.contant .fl .head{
+.contant>.fl .head{
 	padding: 25px 15px;
 }
-.contant .fl .head img{
+.contant>.fl .head img{
 	width: 52px;
 	height: 52px;
 	float: left;
 	margin-right: 8px;
 }
-.contant .fl .head p{
+.contant>.fl .head p{
 	line-height: 28px;
 	font-size: 16px;
 	color: #333;
@@ -170,10 +182,10 @@ header .fr .user img{
 	height: 28px;
 	overflow: hidden;
 }
-.contant .fl .nav{
+.contant>.fl .nav{
 	background-color: #fbfbfb;
 }
-.contant .fl .nav .yiji{
+.contant>.fl .nav .yiji{
 	line-height: 48px;
 	position: relative;
 	background:url(../img/nav01.png);
@@ -182,20 +194,20 @@ header .fr .user img{
 	text-align: center;
 	font-size: 16px;
 }
-.contant .fl .nav .yiji li{
+.contant>.fl .nav .yiji li{
 	line-height: 36px;
 	text-align: right;
 	padding-right: 42px;
 }
-.contant .fl .nav .yiji ul{
+.contant>.fl .nav .yiji ul{
 	background-color: #fbfbfb;
 	display: none;
 }
-.contant .fl .nav .yiji.active{
+.contant>.fl .nav .yiji.active{
 	background: #35ade9;
 	color: #fff;
 }
-.contant .fl .nav .yiji.active:before{
+.contant>.fl .nav .yiji.active:before{
 	position: absolute;
     content: "";
     width: 8px;
@@ -205,24 +217,24 @@ header .fr .user img{
     background-color: #00ef11;
     left: 12px;
 }
-.contant .fl .nav .yiji li.active,.contant .fl .nav .yiji li:hover{
+.contant>.fl .nav .yiji li.active,.contant>.fl .nav .yiji li:hover{
 	background: #cce1f9;
 	color: #0e83e7;
 }
-.contant .row .top{
+.contant>.row .top{
 	width: 100%;
 	height: 50px;
 	background: #fff;
 	line-height: 50px;
 	padding-left: 15px;
 }
-.contant .row .content{
+.contant>.row .content{
 	padding: 15px;
 }
-.contant .row .content .box{
+.contant>.row .content .box{
 	border-radius: 4px;
 }
-.contant .row .content .box h1{
+.contant>.row .content .box h1{
 	color: #0e83e7;
 	line-height: 40px;
 	padding-left: 18px;

@@ -1,3 +1,4 @@
+/***************************************审批申请index.css***********************************************/
 .content .box{
 	width: 49%;
 	background: #fff;
@@ -36,4 +37,82 @@
 .list-block .row span{
 	float: left;
 	margin-top: 5px;
+}
+/***************************************完整信息complete_info.css***********************************************/
+.info{
+	padding: 0 8px;
+}
+.info .info_top{
+	background: #fcae5c;
+	overflow: hidden;
+	padding-top: 4px;
+	margin-top: 12px;
+}
+.info .info_top li{
+	float: left;
+	width: 120px;
+	line-height: 36px;
+	text-align: center;
+	color: #fff;
+}
+.complete_info .fl{
+	width: 49%;
+}
+.complete_info .fr{
+	width: 49%;
+}
+.complete_info .box{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.info .info_top li.active{
+	background: #fff;
+	color: #333;
+}
+.list-block .item{
+	overflow: hidden;
+	float: left;
+	margin-bottom: 15px;
+	padding-right: 6px;
+}
+.list-block .item label{
+    height: 28px;
+    line-height: 28px;
+    display: block;
+    float: left;
+    padding:0 15px 0 8px;
+}
+.list-block .item input[type="text"]{
+    height: 28px;
+    border: 1px solid #cfcfcf;
+    float: left;
+}
+.list-block .item input[type="radio"]{
+	margin-top: 7px;
+	float: left;
+}
+.list-block .item select{
+	float: left;
+	margin-right: 8px;
+}
+.list-block .item.col-33 input[type="text"]{
+	width: 80px;
+}
+.list-block .item.col-50 input[type="text"]{
+	width: 120px;
+}
+.list-block .item.col-100 input[type="radio"]{
+	margin-top: 12px;
+}
+
+.complete_info .list-block table{
+	width: 100%;
+}
+.complete_info .list-block table tr{
+	height: 32px;
+}
+.complete_info .list-block table tr:nth-child(1){
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
 }
