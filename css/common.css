@@ -6,6 +6,7 @@ body{
     line-height: 1.4;
     -webkit-text-size-adjust: 100%;
     background: #ebebeb;
+    min-width: 1340px;
 }
 input[type="text"],input[type="button"]{
 	border:none;
