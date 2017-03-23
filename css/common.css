@@ -1,0 +1,229 @@
+body{
+	position: relative;
+    font-family: -apple-system, SF UI Text, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-text-size-adjust: 100%;
+    background: #ebebeb;
+}
+input[type="text"],input[type="button"]{
+	border:none;
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	-o-appearance: none; 
+	appearance: none;
+}
+*{
+	box-sizing: border-box;
+	color:#333;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin:0;
+    padding: 0;
+}
+input, a, textarea{
+	-moz-user-select: text !important;
+    -webkit-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+}
+p, h1, ul, li, em{
+	margin:0;
+	padding: 0;
+	font-style: normal;
+	font-size: 14px;
+	list-style: none;
+	font-weight: normal;
+}
+h1{
+	font-size: 16px;
+	line-height: 16px;
+}
+p{
+	text-align:justify;
+	text-justify:inter-ideograph;
+	color: #7b7a7a;
+}
+a{
+	color:#fdfdfd;
+	text-decoration: none;
+}
+img{
+	vertical-align: top;	
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.button01{
+	width: 120px;
+	height: 36px;
+	background: #fff;
+	color: #0e83e7;
+	border:1px solid #0e83e7 !important;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.button01:hover{
+	background: #0e83e7;
+	color: #fff;
+}
+/***************************************头部css***********************************************/
+header{
+	background-color:#0b85ef;
+	height: 64px;
+	width: 100%;
+	line-height: 64px;
+}
+header .fl,header .fr{
+	height: 100%;
+}
+.logo{
+	width: 180px;
+	padding: 10px 24px;
+	height: 100%;
+	float: left;
+}
+nav{
+	display: block;
+	overflow: hidden;
+}
+header .fl nav a{
+	width: 138px;
+	height: 100%;
+	display: block;
+	float: left;
+	text-align: center;
+}
+header nav a:hover{
+	background: #0e6eca;
+}
+header .fr nav a{
+	width: 50px;
+	height: 100%;
+	display: block;
+	float: left;
+	padding: 15px 0px;
+	text-align: center;
+}
+header .fr .user{
+	float: right;
+	line-height: 64px;
+	margin:0 12px;
+}
+header .fr .user p{
+	color: #fff;
+	float: left;
+	position: relative;
+	padding: 0 24px;
+}
+header .fr .user p:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	top: 30px;
+	right: 8px;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+}
+header .fr .user img{
+	margin-top: 12px;
+}
+.row{
+	overflow: hidden;
+	position: relative;
+}
+/***************************************contant.css***********************************************/
+.contant{
+	overflow: hidden;
+}
+.contant .fl{
+	width: 180px;
+	background: #fff;
+	overflow: hidden;
+	min-height: 1000px;
+}
+.contant .fl .head{
+	padding: 25px 15px;
+}
+.contant .fl .head img{
+	width: 52px;
+	height: 52px;
+	float: left;
+	margin-right: 8px;
+}
+.contant .fl .head p{
+	line-height: 28px;
+	font-size: 16px;
+	color: #333;
+	margin-top: 4px;
+	height: 28px;
+	overflow: hidden;
+}
+.contant .fl .nav{
+	background-color: #fbfbfb;
+}
+.contant .fl .nav .yiji{
+	line-height: 48px;
+	position: relative;
+	background:url(../img/nav01.png);
+	background-repeat:no-repeat;
+	background-position: 26px 14px;
+	text-align: center;
+	font-size: 16px;
+}
+.contant .fl .nav .yiji li{
+	line-height: 36px;
+	text-align: right;
+	padding-right: 42px;
+}
+.contant .fl .nav .yiji ul{
+	background-color: #fbfbfb;
+	display: none;
+}
+.contant .fl .nav .yiji.active{
+	background: #35ade9;
+	color: #fff;
+}
+.contant .fl .nav .yiji.active:before{
+	position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    top: 20px;
+    border-radius: 50%;
+    background-color: #00ef11;
+    left: 12px;
+}
+.contant .fl .nav .yiji li.active,.contant .fl .nav .yiji li:hover{
+	background: #cce1f9;
+	color: #0e83e7;
+}
+.contant .row .top{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	line-height: 50px;
+	padding-left: 15px;
+}
+.contant .row .content{
+	padding: 15px;
+}
+.contant .row .content .box{
+	border-radius: 4px;
+}
+.contant .row .content .box h1{
+	color: #0e83e7;
+	line-height: 40px;
+	padding-left: 18px;
+	border-bottom: 3px solid #0e83e7;
+}

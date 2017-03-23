@@ -1,0 +1,39 @@
+.content .box{
+	width: 49%;
+	background: #fff;
+	float: left;
+}
+.content .box:nth-child(1){
+	margin-right: 2%
+}
+.list-block{
+	padding: 25px 15px;
+}
+.list-block .row{
+	margin-bottom: 15px;
+}
+.list-block .row label{
+	width: 80px;
+	height: 28px;
+	line-height: 28px;
+	display: block;
+	float: left;
+	padding-left: 8px;
+}
+.list-block .row input[type=text]{
+	width: 180px;
+	height: 28px;
+	border:1px solid #cfcfcf;
+	float: left;
+}
+.list-block .row input[type=radio]{
+	width: 12px;
+	height: 12px;
+	border:1px solid #cfcfcf;
+	float: left;
+	margin: 8px 8px 0px 28px;
+}
+.list-block .row span{
+	float: left;
+	margin-top: 5px;
+}
